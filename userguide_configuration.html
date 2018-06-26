@@ -531,18 +531,9 @@
           margin-bottom: 42px;
           position: static;
         }
-
-        /* PICK ONE */
-        /* don't expand nested items, which pushes down the rest of the page when navigating */
         nav[data-toggle='toc'] .nav .active .nav {
           display: none;
         }
-        /* alternatively, if you *do* want the second-level navigation to be shown (as seen on this page on mobile), use this */
-        /*
-        nav[data-toggle='toc'] .nav .nav {
-          display: block;
-        }
-        */
       }
     </style>
   </head>
@@ -553,15 +544,6 @@
       <div class="row">
         <div id="header" class="col-sm-2 border-columns">
           <nav id="toc" data-toggle="toc" class="toc sticky-top">
-            <!--<div id="toc" class="toc position-fixed">-->
-              <!--<div id="toctitle">Table of Contents</div>-->
-              <!--<ul class="sectlevel1">-->
-                <!--<li style="background-color: #1F7CB5;"><a href="#_overview">Overview</a></li>-->
-                <!--<li><a href="#_per_tenant_properties">Per tenant properties</a></li>-->
-                <!--<li><a href="#_global_properties">Global properties</a></li>-->
-                <!--<li><a href="#_docker">Docker</a></li>-->
-              <!--</ul>-->
-            <!--</div>-->
           </nav>
         </div>
         <div id="content" class="col-sm-8">
